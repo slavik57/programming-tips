@@ -1,0 +1,21 @@
+{
+  "name": "programming-tips",
+  "version": "1.0.0",
+  "description": "Bunch of programming tips",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slavik57/programming-tips.git"
+  },
+  "keywords": [],
+  "author": "Slava Shpitalny <slavik57@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slavik57/programming-tips/issues"
+  },
+  "homepage": "https://github.com/slavik57/programming-tips#readme"
+}
