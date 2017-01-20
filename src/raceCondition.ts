@@ -1,3 +1,6 @@
+// The video explaining this file:
+// https://youtu.be/wNwBzgDm0BI
+
 const state = {
     isLoading: false,
     items: []
