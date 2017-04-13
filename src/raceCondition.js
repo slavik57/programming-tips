@@ -1,6 +1,8 @@
 // The video explaining this file:
 // https://youtu.be/wNwBzgDm0BI
-const state = {
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.state = {
     isLoading: false,
     items: []
 };
@@ -8,8 +10,8 @@ let lastSession = null;
 function fetchItems(timeToDelay, items) {
     const currentSession = {};
     lastSession = currentSession;
-    state.isLoading = true;
-    console.log('fetchItems:', state);
+    exports.state.isLoading = true;
+    console.log('fetchItems:', exports.state);
     fetch(timeToDelay, items)
         .then((items) => {
         if (currentSession !== lastSession) {
@@ -20,9 +22,9 @@ function fetchItems(timeToDelay, items) {
     });
 }
 function updateState(items) {
-    state.isLoading = false;
-    state.items = items;
-    console.log('updateState:', state);
+    exports.state.isLoading = false;
+    exports.state.items = items;
+    console.log('updateState:', exports.state);
 }
 function fetch(timeToDelay, items) {
     return new Promise((resolve) => {
