@@ -1,6 +1,6 @@
+"use strict";
 // The video explaining this file:
 // https://youtu.be/wNwBzgDm0BI
-"use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.state = {
     isLoading: false,

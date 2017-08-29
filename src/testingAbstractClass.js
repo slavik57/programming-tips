@@ -1,6 +1,6 @@
+"use strict";
 // The video for this file:
 // https://youtu.be/sGRlyBSgi1Q
-"use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 class Animal {
     feed(food) {
