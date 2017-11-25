@@ -1,3 +1,6 @@
+// The video for this file:
+// https://youtu.be/lpB7PLSikw8
+
 function fetchBooks(username, userDAL, booksDAL) {
   if (!username) {
     throw "you should pass the username"
